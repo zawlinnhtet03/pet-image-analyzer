@@ -33,7 +33,7 @@ def load_css():
 
     /* Upload section */
     .upload-section {
-        border: 3px dashed #FF6B6B;
+        border: 3px dashed #CCCCFF;
         border-radius: 20px;
         padding: 3rem;
         text-align: center;
