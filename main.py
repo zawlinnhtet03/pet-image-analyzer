@@ -75,11 +75,11 @@ if uploaded_file:
                 result = parse_analysis_result(analysis)
 
                 # Pet Type & Breed Card
-                st.markdown('<div class="result-card">', unsafe_allow_html=True)
+                # st.markdown('<div class="result-card">', unsafe_allow_html=True)
                 st.markdown('<h3 class="section-header">🏷️ Pet Type & Breed</h3>', unsafe_allow_html=True)
                 st.write(f"**Type:** {result.get('Type', 'Unknown')}")
                 st.write(f"**Breed:** {result.get('Breed', 'Unknown')}")
-                st.markdown('</div>', unsafe_allow_html=True)
+                # st.markdown('</div>', unsafe_allow_html=True)
 
                 # Personality Card
                 st.markdown('<div class="result-card">', unsafe_allow_html=True)
