@@ -82,24 +82,24 @@ if uploaded_file:
                 # st.markdown('</div>', unsafe_allow_html=True)
 
                 # Personality Card
-                st.markdown('<div class="result-card">', unsafe_allow_html=True)
+                # st.markdown('<div class="result-card">', unsafe_allow_html=True)
                 st.markdown('<h3 class="section-header">💫 Personality Traits</h3>', unsafe_allow_html=True)
                 st.write(result.get('Personality', 'No personality information available'))
-                st.markdown('</div>', unsafe_allow_html=True)
+                # st.markdown('</div>', unsafe_allow_html=True)
 
                 # Adoption Recommendations Card
-                st.markdown('<div class="result-card">', unsafe_allow_html=True)
+                # st.markdown('<div class="result-card">', unsafe_allow_html=True)
                 st.markdown('<h3 class="section-header">💝 Adoption Match</h3>', unsafe_allow_html=True)
 
-                st.markdown('<div class="recommendation-item">', unsafe_allow_html=True)
+                # st.markdown('<div class="recommendation-item">', unsafe_allow_html=True)
                 st.write("👥 **Best For:**")
                 st.write(result.get('Best For', 'No adoption recommendations available'))
-                st.markdown('</div>', unsafe_allow_html=True)
+                # st.markdown('</div>', unsafe_allow_html=True)
 
-                st.markdown('<div class="recommendation-item">', unsafe_allow_html=True)
+                # st.markdown('<div class="recommendation-item">', unsafe_allow_html=True)
                 st.write("🏠 **Ideal Environment:**")
                 st.write(result.get('Environment', 'No environment information available'))
-                st.markdown('</div>', unsafe_allow_html=True)
+                # st.markdown('</div>', unsafe_allow_html=True)
 
                 st.markdown('</div>', unsafe_allow_html=True)
 
