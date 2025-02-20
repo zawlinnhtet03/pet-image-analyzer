@@ -4,8 +4,7 @@ from utils import initialize_gemini, analyze_pet_image, parse_analysis_result, f
 from styles import load_css
 import os
 import logging
-# from dotenv import load_dotenv
-# load_dotenv() 
+
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
