@@ -26,7 +26,7 @@ def analyze_pet_image(model, image):
 
     Type: [specify if it's a dog, cat, etc.]
     Breed: [specific breed name]
-    Personality: [list 3-4 personality traits visible in the image]
+    Personality: [list 3-4 personality traits visible in the image and any other relevant details]
     Best For: [describe ideal adopter profile]
     Environment: [describe ideal living conditions]
 
