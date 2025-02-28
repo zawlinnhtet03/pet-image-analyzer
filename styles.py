@@ -13,7 +13,7 @@ def load_css():
     .pet-header {
         text-align: center;
         padding: 2rem;
-        background: linear-gradient(135deg, #FF6B6B 0%, #FF8E8E 100%);
+        background: linear-gradient(135deg, #FF6B6B 0%, #8E98FF 100%);
         color: white;
         border-radius: 20px;
         margin-bottom: 3rem;
